@@ -9,7 +9,8 @@ export default class Options extends Component {
     render() {
         return (
         <form>
-            <div className="control">
+{/* Kommentert ut da funksjonene for disse ikke er ferdige            
+                 <div className="control">
                 <label className="radio">
                 <input type="radio" name="departureTime" value="now" onChange={this.handleChange} checked={this.state.departureTime === 'now'} />
                 Nå
@@ -28,7 +29,7 @@ export default class Options extends Component {
                 <input type="radio" name="departureTime" value="arrival" onChange={this.handleChange} checked={this.state.departureTime === 'arrival'} />
                 Ankomst
                 </label>
-            </div>
+            </div> */}
             
             <div className="control">
                 <button className="button" disabled={this.props.isSearching}
