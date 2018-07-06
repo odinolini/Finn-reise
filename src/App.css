@@ -1,0 +1,36 @@
+.linje {
+  padding:10px;
+}
+
+.linjeContainer {
+  width: 100%;
+}
+
+.LinjeButtonStrek {
+  width:7px;
+  content: " ";
+  height:100px;
+  margin-left:3.9em;
+}
+
+.LinjeButtonStrek:after {
+  position:absolute;
+  content: " ";
+  display:block;
+  height:100px;
+  border-bottom: 5px solid hsl(48, 100%, 67%);
+  width:20px;
+}
+
+.LinjeButtonStrek:before {
+  position:absolute;
+  content: " ";
+  display:block;
+  height:100px;
+  border-top: 5px solid hsl(48, 100%, 67%);
+  width:20px;
+}
+
+.travelProposal {
+  margin-bottom: 2em !important;
+}
